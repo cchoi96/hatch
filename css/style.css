@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.section {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navigation */
+
+#header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding-top: 2%;
+}
+
+#logo {
+  float: left;
+  padding-left: 2%;
+}
+
+#navbar {
+  float: right;
+  padding-right: 2%;
+}
+
+#navbar ul {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+#navbar a {
+  color: white;
+}
+
+
+#navbar li {
+  padding-bottom: 10px;
+}
+
+/* Home Page */
+#home_page {
+  background: url("http://hatch-homerton.co.uk/wp-content/uploads/2014/11/20170220-184.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  min-height: 100vh;
+}
+
+#main-info img {
+  display: block;
+  width: 35%;
+  margin: auto;
+  padding-top: 30vh;
+}
+
+#main-info h2 {
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+#slider {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  padding-top: 35px;
+}
+
+#slider img {
+  -webkit-transition: all 0.25s ease; /* Safari and Chrome */
+  -moz-transition: all 0.25s ease; /* Firefox */
+  -ms-transition: all 0.25s ease; /* IE 9 */
+  -o-transition: all 0.25s ease; /* Opera */
+   transition: all 0.25s ease;
+}
+
+#slider img:hover {
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  -ms-transform: scale(1.25); /* IE 9 */
+  -o-transform: scale(1.25); /* Opera */
+   transform: scale(1.25);
+}
+
+/* About */
+
+
+#about {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Food & Drink */
+
+#menu {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+}
+
+#menu h2 {
+  font-size: 2em;
+}
+
+#menu p, #menu a {
+  font-size: 1.5em;
+}
+
+#menu p {
+  padding-top: 3%;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 2%;
+}
+
+#menu a:hover {
+  color: grey;
+}
+
+/* Hours */
+
+#hours {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#hours h2 {
+  font-size: 2em;
+  padding-bottom: 3%;
+}
+
+#hours h4 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+/* Contact */
+
+#contact {
+  background-color: white;
+}
+
+.column {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.column h2 {
+  padding-bottom: 10px;
+}
+
+.column a:hover {
+  color: grey;
+}
+
+#footer-img {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.25s ease; /* Safari and Chrome */
+  -moz-transition: all 0.25s ease; /* Firefox */
+  -ms-transition: all 0.25s ease; /* IE 9 */
+  -o-transition: all 0.25s ease; /* Opera */
+   transition: all 0.25s ease;
+}
+
+#footer-img:hover {
+  -webkit-transform: scale(1.1); /* Safari and Chrome */
+  -moz-transform: scale(1.1); /* Firefox */
+  -ms-transform: scale(1.1); /* IE 9 */
+  -o-transform: scale(1.1); /* Opera */
+   transform: scale(1.1)
+}
